@@ -15,7 +15,7 @@ function Footer() {
               <a href="/" className="flex items-center">
                 <img src={PIc} className="h-8 me-3" alt="E-STORE Logo" />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap text-white dark:text-white">
-                  E-STORE
+                  E-STORED
                 </span>
               </a>
             </div>
