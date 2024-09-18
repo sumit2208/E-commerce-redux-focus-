@@ -14,9 +14,6 @@ const Navbar = () => {
   const cartLength = cartItems.length;
   const total = useSelector(selectTotalPrice);
 
-  
-    
-
   useEffect(() => {
     dispatch(calculateTotal());
   }, [cartItems, dispatch]);
@@ -45,11 +42,8 @@ const Navbar = () => {
   };
 
   return (
-    <div div  
-    
-    
-    className='font-bold tracking-tight' style={{fontWeight:'800'}}>
-      <nav className="bg-gray-900 p-2.5 border-gray-200 text-gray-400 font-sans md:bg-gray-900">
+    <div className="font-bold tracking-tight" style={{ fontWeight: '800' }}>
+      <nav className="bg-gray-900 p-2.5 border-gray-200 text-gray-400 font-sans md:bg-gray-900 fixed top-0 left-0 w-full z-50">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
           <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
             <img src={logo} className="h-5 lg:h-8 rounded-s-3xl" alt="Logo" />
@@ -103,13 +97,11 @@ const Navbar = () => {
 
           <div className="relative">
             <button onClick={toggleSidebar}>
-            < img
-   
-      className="h-8 cursor-pointer"
-      src={cartpic}
-      alt="Cart"
- // Trigger rotation on click
-    />
+              <img
+                className="h-8 cursor-pointer"
+                src={cartpic}
+                alt="Cart"
+              />
             </button>
             {cartLength > 0 && (
               <span className="absolute top-0 right-0 bg-red-500 text-white rounded-full text-xs w-5 h-5 flex items-center justify-center">
@@ -122,10 +114,11 @@ const Navbar = () => {
 
       {/* Sidebar */}
       {isSidebarOpen && (
-        <motion.div
-  
-         initial={{x:-100,opacity:0}}   transition={{duration:0.5}}
-        className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity z-10" aria-hidden="true">
+        <motion.div   
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ x: -100, opacity: 0 }}
+          transition={{ duration: 1 }}
+          className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity z-10" aria-hidden="true">
           <div className="fixed inset-0 overflow-hidden">
             <div className="absolute inset-0 overflow-hidden">
               <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
@@ -166,19 +159,13 @@ const Navbar = () => {
                                   </div>
                                   <div className="flex flex-1 items-end justify-between text-sm">
                                     <p className="text-gray-500 flex">
-
-
-                                      <svg onClick={() => dec(item.id)} class="cursor-pointer w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m15 19-7-7 7-7" />
+                                      <svg onClick={() => dec(item.id)} className="cursor-pointer w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m15 19-7-7 7-7" />
                                       </svg>
-
                                       <span>{item.quantity}</span>
-
-
-                                      <svg onClick={() => incre(item.id)} class="cursor-pointer w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7" />
+                                      <svg onClick={() => incre(item.id)} className="cursor-pointer w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m9 5 7 7-7 7" />
                                       </svg>
-
                                     </p>
                                     <button type="button" className="font-medium text-indigo-600 hover:text-indigo-500" onClick={() => handleRemove(item.id)}>
                                       Remove
@@ -198,7 +185,7 @@ const Navbar = () => {
                           <p>Rs-{total.toFixed(2)}</p>
                         </div>
                         <div className="mt-6">
-                          <button className='p-3  bg-black  w-full text-white '>CHECKOUT</button> 
+                          <button className='p-3 bg-black w-full text-white'>CHECKOUT</button> 
                         </div>
                       </div>
                     </div>

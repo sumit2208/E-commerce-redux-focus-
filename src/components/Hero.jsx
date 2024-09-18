@@ -1,18 +1,20 @@
 import React from 'react';
 import Products from '../Products.json';
-import { addCart,  selectCartItems } from '../redux/Features/cart/cartslice';
+import { addCart, selectCartItems } from '../redux/Features/cart/cartslice';
 import { useDispatch, useSelector } from 'react-redux';
 import { motion } from 'framer-motion';
-import { duration } from '@mui/material';
+
 const Hero = () => {
   const dispatch = useDispatch();
-
   const cartItems = useSelector(selectCartItems);
-  const discountProducts = Products.Discount || []; 
-  
-  const isProductInCart = (productId)=>{
-      return cartItems.some(item=>item.id == productId)
-   }
+  const discountProducts = Products.Discount || [];
+
+ 
+
+  const isProductInCart = (productId) => {
+    console.log("Checking cart for product:", productId);
+    return cartItems.some(item => item.id === productId);
+  };
 
   const handleAddToCart = (product) => {
     if (!isProductInCart(product.id)) {
@@ -27,11 +29,12 @@ const Hero = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
           {discountProducts.map((product) => (
             <motion.div
-            whileInView={{opacity:1,x:0}}
-            initial={{x:-100,opacity:0}}
-            transition={{duration:1}}
-            key={product.id} className="bg-gray-800 shadow-3d rounded-lg overflow-hidden flex flex-col">
-              
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ x: -100, opacity: 0 }}
+              transition={{ duration: 1 }}
+              key={product.id}
+              className="bg-gray-800 shadow-3d rounded-lg overflow-hidden flex flex-col"
+            >
               <img src={product.image} className="w-full h-48 object-fill" alt={product.name} />
               <div className="p-4 flex-1">
                 <h5 className="text-lg font-semibold text-white">{product.name}</h5>

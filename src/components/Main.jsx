@@ -1,8 +1,8 @@
 import React from 'react'
 // import pic from '../assets/145750054.jpg'
 // import pics from '../assets/asim.jpg'
-import { delay, motion } from 'framer-motion'
-import { duration } from '@mui/material'
+import {  motion } from 'framer-motion'
+ 
 const Main = () => {
   return (
     <div className='font-bold tracking-tight'>
