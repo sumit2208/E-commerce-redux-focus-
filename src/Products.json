@@ -1,0 +1,250 @@
+{
+  "Discount": [
+    {
+      "id": "1",
+      "name": "Wireless Bluetooth Headphones",
+      "description": "Over-ear headphones with noise cancellation and 20-hour battery life.",
+      "image": "https://images.philips.com/is/image/philipsconsumer/60a04af525fe4e7589acb0c90075d2d7?$pnglarge$&wid=1250",
+      "price_inr": 4979.17,
+      "discount_price_inr": 4149.17
+    },
+    {
+      "id": "2",
+      "name": "Smart LED TV",
+      "description": "55-inch 4K UHD Smart TV with HDR and built-in streaming apps.",
+      "image": "https://www.reliancedigital.in/medias/ONEPLUS-32Y1-TV-491895010-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyMjIzMXxpbWFnZS9qcGVnfGltYWdlcy9oNjkvaDE0Lzk4MTAwNTg5MDM1ODIuanBnfGFiZjk3NDA1MzY1ODQwYjc2OTZkMzY4OTI1Y2RmOWM3OTI4NTE1MTlkMDFlOTUwYmZkM2U5MTVlYmIyZGFlYzg",
+      "price_inr": 33199.17,
+      "discount_price_inr": 29099.17
+    },
+    {
+      "id": "3",
+      "name": "Laptop Backpack",
+      "description": "Durable backpack with multiple compartments for laptops up to 15.6 inches.",
+      "image": "https://safaribags.com/cdn/shop/files/3_4bde5165-92cd-4305-b571-dea21fe6568e.jpg?v=1707731843",
+      "price_inr": 2484.17,
+      "discount_price_inr": 2074.17
+    },
+    {
+      "id": "4",
+      "name": "Electric Kettle",
+      "description": "1.7-liter stainless steel electric kettle with auto shut-off and boil-dry protection.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIfNnotbeuMhtsP5sFihVOlbIBsBQARhDPWw&s",
+      "price_inr": 2074.17,
+      "discount_price_inr": 1654.17
+    },
+    {
+      "id": "5",
+      "name": "Fitness Tracker",
+      "description": "Waterproof fitness tracker with heart rate monitor and GPS.",
+      "image": "https://www.garmin.co.in/m/in/g/products/intosports/vivo/vivosmart-5.jpg",
+      "price_inr": 7474.17,
+      "discount_price_inr": 6634.17
+    },
+    {
+      "id": "6",
+      "name": "Wireless Mouse",
+      "description": "Ergonomic wireless mouse with adjustable DPI and 2-year battery life.",
+      "image": "https://4.imimg.com/data4/PA/GE/MY-3486883/wireless-mouse.jpg",
+      "price_inr": 1654.17,
+      "discount_price_inr": 1654.17
+    },
+    {
+      "id": "7",
+      "name": "Portable Bluetooth Speaker",
+      "description": "Compact speaker with deep bass, 12-hour playtime, and IPX7 waterproof rating.",
+      "image": "https://images-cdn.ubuy.co.in/64f8fabde01bf74c341c95f7-portable-bluetooth-speaker-wireless.jpg",
+      "price_inr": 4149.17,
+      "discount_price_inr": 3319.17
+    },
+    {
+      "id": "8",
+      "name": "Smartphone",
+      "description": "Latest model smartphone with 128GB storage, 5G connectivity, and triple camera.",
+      "image": "https://opsg-img-cdn-gl.heytapimg.com/epb/202406/26/IzcVfAu2kdJjoeYS.png",
+      "price_inr": 58099.17,
+      "discount_price_inr": 53199.17
+    },
+    {
+      "id": "9",
+      "name": "Gaming Keyboard",
+      "description": "Mechanical keyboard with RGB lighting and customizable keys.",
+      "image": "https://m.media-amazon.com/images/I/71-+n3UMsML._AC_UF1000,1000_QL80_.jpg",
+      "price_inr": 6634.17,
+      "discount_price_inr": 5799.17
+    },
+    {
+      "id": "10",
+      "name": "Air Purifier",
+      "description": "HEPA air purifier for large rooms, with 3-stage filtration and quiet operation.",
+      "image": "https://m.media-amazon.com/images/I/712gw4Sw5SL._AC_UF350,350_QL80_.jpg",
+      "price_inr": 10749.17,
+      "discount_price_inr": 9499.17
+    } 
+ 
+  ],
+  "Headphones": [
+    {
+      "id": "11",
+      "name": "Over-Ear Noise Cancelling Headphones",
+      "description": "High-fidelity headphones with active noise cancellation.",
+      "image": "https://d1b5h9psu9yexj.cloudfront.net/57440/Anker-s-Soundcore-Space-One_20230829-151132_full.jpeg",
+      "price_inr": 5999.17,
+      "discount_price_inr": 4999.17
+    },
+    {
+      "id": "12",
+      "name": "Bluetooth Earbuds",
+      "description": "Compact and lightweight earbuds with Bluetooth connectivity.",
+      "image": "https://www.boat-lifestyle.com/cdn/shop/products/AD181-FI_Black01_e7aa0e47-1514-45d7-87e1-d39f9a869d89_1500x.png?v=1708416957",
+      "price_inr": 2999.17,
+      "discount_price_inr": 2499.17
+    },
+    {
+      "id": "13",
+      "name": "In-Ear Wireless Headphones",
+      "description": "Comfortable in-ear headphones with wireless connectivity.",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8HERITEhIVExUVEhYTFhMXEBUVGRQVFhUWFhkSFhsYHSggGxolHxcXITEhJiorLi4uFx8zODMtNygtLisBCgoKDg0NDg0NDysZFhk3Kys3ODc4ODg1KysrLysrMSszKy4rLis4LisvLS03Kys4Kzg3KysrKysrKysrKysrK//AABEIAOAA4AMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABQYCBAcDAQj/xABDEAACAQMBAwgGBQwBBQEAAAAAAQIDBBEFBhIhBzFBUWFxgZETIjIzobEUFSVCciMkQ1JiY4KSorLBwvBkc5PR0hf/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAXEQEBAQEAAAAAAAAAAAAAAAAAIREB/9oADAMBAAIRAxEAPwDuIAAAAAAAAAAAAAAAAAAAFc2g20s9DbjKTqVFz06ay0+qT5o+LAsYOP3nKhd3VVKjGnSjx4Nekk8dEnwS8PM6hs/qa1i2pV0sb8MtdUuZrzTAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAc05SOUGeizVGg0sVIRqVOdpNrKj1dWTj11rLu25N87bfHpbec9Z67b+klc3MKmVL0k089eXhkBpFpUuasaWHmTSUcP1m+Hq9oRI0LybktxdKXnw4n6O5N7StZ6dQVVYk96eOqM5OUV5M53acnktMsrm4uI7soUZOnTym1Jfflj5HWNmJb1nav8A6en/AGIKkwAAAAAAAAAAAAAAAAAAAAAAAADxuLqnbY35xhnm3pKOfMD2BjCamk000+lPJkAAAFe2i2LsNopb9el6/N6SMnGTx145/Ez0DZCx0B5o0/W5t+UnKS7s83gTwAr239T0enXXbT3f5pJf5JLQKfobW3j1UKa8oIr/ACn1M2kKS561zSpJdeZZ/wAFspQ9HFRXQkvJYAzAAAAAAAAAAAAAAAAAAAAAAABVdv8AbGnsnQcvaqyXqR58ccbz7Dhmr7X1tUqeknLeb6+rqS6F2F95admrvVrm2lRhvxqx9BjeSamnKSXHoazx7DT2R5GK1Fp3lWKhz7kfWl3JtYXxAmOQu4uKkLqMpSlSUoygpfclLezBdmEn4nVDR0fSaGi01SoQUIrj2t/rN9LN4AAAAAAp21H5/qWnW/OoOV1Jfh4RfmmXEpuzn2pql9c88aSjaQfanmePFfEuQAAAAAAAAAAAAAAAAAAAAAAAAEDtD69xp8el3MpeEKU2/mTxAVvzvU6a6Le3nN/jrSUV/TGXmT4AAAAAANHW79aZb1qz/R05S72lwXng3in8oE3fO1so89xWTn2UocZf87ANzk+sXZWNOUvbrN3E31upxWfDdLIY04KmkksJJJLqS6DIAAAAAAAAAAAAAAAAAAAAAAHxvB9IPa+7lSoKlT97cTVCHZv+1P8AhjvPwA89kvzv6RdP9PWe5/2qf5OHnhvxLAeFjaxsacKcFiMIKCXZFYPcAAAAAAFN2f8AtrUrq654UF9FpdWVxnJf8+8TW1uq/U1pWq/eUd2C65y4Rx558DHY7SvqezpU37bW/U7ak/Wl5Zx4ATQAAAAAAAAAAAAAAAAAAAAAAABWtOf1zfVK/PStt63pdUqrw6tRd3COe83dqdRlYUMU+NatJUaK/eT4KXdHjJ9xt6Lp0dJoU6MeO5FJy6ZS55Tfa3l+IG6AAAAAAGFarGhGUpPEYpyb6kllsCo7Rfbeo2touMKP5zW8PYi/HHmXEqPJ/SldqvfTXr3VVuOeilBuMV8/JFuAAAAAAAAAAAAAAAAAAAAAAABDbT3s6FONKk/y1eXoqf7Ofaqd0Vl+QGrpi+urydy+NKhvUKPVKf6Wqv7V3MsZrabZQ06lClBerCKiu3rb7W+PibIAAAAAAKryh3U/o8Lam/yt1UjRj2RynKXdj5lqKfbfbWr1J89Oyp7ker0tRes+9LK8gLTY2sbGnCnBYjCCgu5LB7gAAAAAAAAAAAAAAAAAAAAAAAr2jfa1zVunxhDNCh3J/lKi73w7omztTeTt6O5S97WkqNPscueX8McvwJDT7OGn0oUoLEYRUV4dIGwAAAAAAADW1K7jYUalWXNCEpeSzgguT20lRs1Vn7y4nKvN9Prv1f6ceZ5cotWVS3pW0H61zXhR/hzmT+RZ6FJUIxjFYUYqKXYlhAegAAAAAAAAAAAAAAAAAAAAAAeV1XjawnOXNGLk+5LIEJQ+09QnLnhaQ9HHq9NVWZvvUcL+IsBDbI28qVrCU/brOVef4qj3seCaXgTIAAAAAAAAFQvvtHWbeHPG2t51n+Ob3V8GmW8p+x7+m3up1/30bePdSXH5ouAAAAAAAAAAAAAAAAAAAAAAAITbGTdrKmuetUp0f/JOMX8Mk2Qm0vF2a6PplPP8s2viBNQioJJcElhdyPoAAAAAAAMaktxN9Sb8jI0taqeitq8uqjUflBsCv8mUM2cqnTVuK1V9uZbv+pbSucnkNzTbXtp7380pP/JYwAB8lJR5+AH0Edda7Z2nt3FKPY6sc+WckRd8oGl2vPX3vw05y/xgC0AotTlQs37uhc1e6kv/AKyef/6FcVvd6XdS74SXyiwL8CgPbTVpc2kVfGUl/oYvbrU6Pt6RWx+zvv8A0A6CCh2vKha5UbihXt31yp5X/v4Fx03UqGqQ36NSNSPXF5x2PqA2wAAAAAAACH2roTq27lBZnRnCvFdfo5KTiu9ZXiTAA8bS5heQjUg96M4qUX1pnsQD0250iUpWm7OlJuTtZy3VGT4uVKeHu54vdax3Ga1+pD3lldRf7MIVV4OEmBL3FxC2jvTlGEeuUkl5shrrbPTLX2rqn3Rbm/6UzkXKVrtTVb1wkqlOFNRUaU47rWY5c2ut58kVxVoxA7Vccpum0vZdWp+GjJf3YIy45Vqa93a1JdsqkYfJM5NK9UOlIyt6tS7eKcJ1PwQlL5II6VT5VK++t61huZ4pVW5Y7HjGSd13b7TKttVgq+Z1KM4qKhNtSnBpRlhYTyzmmmbI6rqUoxVtOnGT41KmIRiutpvL7kjsul7KWenUVTjRpuSp7sqjpx3pPGHJt9L5w1M5VM2X25dpaUKFGyr3E6dNQbjH1MrPSkyV+udoL/3VjToLrq1E35ZT+Bvcmdb8zdF+1b16tGS6sTcl8JFtCKL9Ra9fe+1CFFfq0qf+cJ/E9IcnkK3G4vLis+2eF5PPzLsAKxbbBaZb/oN/8U5P4ZwSttoFla+xbUY91KPzwSQAxhTjT5kl3LBkOYjL7aCy0/3txTj2b6b8lxAkwUq+5TdOt8qDqVn+zBpecsEHccqdab/JWiS/bqvPwSwB0u5tad3FxqQjOL6JRUl8Sl6xs6tmJfTbJ+jjDjWoZ9SdPKzuroxxePI2dndvrfUYz+kbttKC3nmeYyXXF4XHsIDXdp57Y1Y2VnF+jlJb9RrG9FNPLX3YLHTxeEB06Et9JrpWfMyMKNP0UYx/VSXksGYAAAAAAAAAAAVjavYWy2olGpVU4VEt30lOWG49UsppkbZ8lOlW+HONWq/260kn4QwXkAQtjslpth7u0ort9GpPzllkvTpxpLEUkupJL5GYAAACjzqrZTVJOfq219h7/wB2FwuHF9G8vmXg0dZ0qjrVGVGtHehLzi+iUX0NdZU6P1vsn6m59YWy4RaeK8I/qtP2sdmfAC9Ap1LlGslwq07ig+lVbeSx5Hq+UXS+irJ9ipTb+QFi1S/p6XRqVqrxCnFyk+7oXa+Y41qXKff6hNqi40IN+qlFSkl1yk88e4leUnbGlrFk6dGlcKPpIOVSVCUIbqz6u91t7py2zrZkwLHe6ldX/vrmpPs33jy5jR3acejPea/pDB1kio3VXUeCSR8lXbNKlUlXlu04SnLmxGLk/JcSx6ZsJq2qYaoehi/vVpbnD8OHL4Aa+zumrXbqjbybSnJ7zXOoqLk2s93xO66DoNtoENyhDdz7UnxlN9cn0ld2D2DWzUpVatRVazjuppYjBPn3c8W31l1IoAAAAAAAAAAAAAAAAAAAAAAADGUFPnSfejGNCEeaMV/Cj0AGhrmlUtbt6tvVXqVI7rxzrqku1PD8Dh2o8lOq6fUfoYwrwzwlGoovHbGWMPuyfoAAcU0rklv7rDuKtOguqOakvhhfEuOk8lWm2WHUU7iX7yeI/wAscLzyXoAalhplvpsd2jRp0l1QhGPyRtgAAAAAAAAAf//Z",
+      "price_inr": 3499.17,
+      "discount_price_inr": 2999.17
+    },
+    {
+      "id": "14",
+      "name": "Gaming Headset with Mic",
+      "description": "Gaming headset with surround sound and a built-in microphone.",
+      "image": "https://i.ebayimg.com/images/g/2WcAAOSwpxplVx0Q/s-l1600.jpg",
+      "price_inr": 3999.17,
+      "discount_price_inr": 3499.17
+    },
+    {
+      "id": "15",
+      "name": "Noise Cancelling Over-Ear Headphones",
+      "description": "Comfortable over-ear headphones with advanced noise cancellation.",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUTExMWFRUXGBkXGBcYFxcXFRgVFRcYGBYaFxkYHSggGBolHRgVIjEiJSkrLy4uFx8zODMtNygtLisBCgoKDQ0NDw8PDysZFRkrNzcrLTctKy0tNys3LS03LTcrNysrKysrLSs3KysrKysrKysrKysrKysrKysrKysrK//AABEIAPQAzwMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAABgUHAwQIAgH/xABJEAABAwIDBAcECAIGCgMBAAABAAIDBBEFEiEGMUFRBxMiYXGBkTJCUqEUI2JygrHB0TPwQ5KissLhFRYkU2ODk6Ozw3PS8Qj/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAXEQEBAQEAAAAAAAAAAAAAAAAAAREh/9oADAMBAAIRAxEAPwC8UIQgEIQgEIQgEIQgEIQgEIS9tDtbBTC187+DRr6oGB7gBckAczuUBi22FNBcF2Z3If5a/JVpje1dTUE3fkZyBt8/2SvU4jGze7x1H7q4LGxDpHkP8NlhzNh+/wCihJ9sqt3vADl2j+brfJV/VbUsGjQo6Xap3BXgsn/Wip+Jp/CFt0u21Q3eLj7L3s+Vy35KpP8AWl6zRbVO4i6C/MI2+a4gPIvyks0nwe3s+RAThRYrFIcoOV9r5HaOI5jg4d4JXM9LtJE7R2iasHx7KMp+ti35bkFp5scNWOHC3+amC/EKuaHbOSmDHSk1FK82bN/TRu+CUbnHkdL+NrvuH18U7BJE8PaeI/IjeD3FQbKEIQCEIQCEIQCEIQCEIQCEIQC8SyhoLnEADeSvFZVMiYXvcGtGpJVRbZ7Yunu0HJCNw3F3igmdq9ui68VMbDcZOfh/PrwrTEsYYwkudmcd5369/NQOL7RXu2PQJde9zjqVRLYhtC9/s3A/n+fRQ0srnbzdZmQL31QQaJjXwxrbdZOGzfRfiVZZwh6mM+/Ndlxzay2c+gHegQurR1ZXQ2C9BdKyxqZ5Zj8LLRM/Vx9Qm6h6NcJiGlFE7vkvKf8AuEqDkwNI3Lbo8RfGQQSP55LrZ+xWGkWNDS2/+GP9kuY70O4XOD1cbqd596JxtfvY67beACBP6MsUp6uCaB4BlOsjCey+PcCwchfXiCRrutpNr6jCassa8lh7TCfZkjJNg4bi4bj366XCgcc2Nr8EnZUtIkjY4ZZmAhpB0LJW6lmYXHEa6G6dNrWCvw1tZBZ2Qda1hAJyDSZhI1DxYnskastrx0LH2V2rhrGi3Zktqwnf3tPEfMfNMK5bwLGSxwcxxBBuNdR4Ef5K9tidr21TRHIQJQND8dvycpgbkIQoBCEIBCEIBCEIBYqqobGwveQ1rRckrI5wAudAFUPSttW4ERC2TLnDb6u1LQXjeG3GnPyKCP29216077RD2GcXW4nu/nwqvFcWdK7U+AGgC18Tr3PcS43P8/JasbLqgjjutyOFe4o7L7mJIYwFznGzWtBLiTuDQNSe5B5e4BMmxuwNZiRDo29VBfWd47JtvEbd8h8NNNSE/wDR/wBEAGWoxIBx0c2mv2RxHXEe0fsDTnfcLijYGgAAAAWAAsABuAHAKBT2Q6OqGgAcyPrZh/TSWc+/2BuZ5C/MlNyEIBCEIBCEIMNXTMlY6ORoex4LXNcLtc0ixBHJVdsthhw+rqMNdd0LgainJubxOOV7T3jQH7pPvK10qbeUdhT1YHappW5jx6iciKUeAzNf/wAtBzntFhxpKuaDgx5y/cPaZ/ZIUjgOMOjcCHEEEEHvCYum3Dcs8U4HtsynxYf2LVXdPLYrQ6p2M2ibWQZv6RlhIO/g4dx18weSn1z30a7T/RqlmY/Vvsx/KztzvI2PhddCLIEIQgEIQgEIUNtTjIpoS7MGuINidzQ0Xe93c0a+g4oIbpB2qjpIXOcbhugbexkkPsxj0uTwAPJcz4piss8z55HXkebk8Lbg0Dg0CwA5BS2P419Mks572Ma53VdY5z2gPN3dYdXNc4i9xcC9rAC6XquFzDlcLEi43EEHcWkaOaeYJCo9sh6w3aDfi0f4f2/NbMMdlMbLUdu0VnxeMTStjiZmkcQ0ZR2nE6AabygiaKllqJWwQMMkjzZrRv8A2AHEnQBdC9HHRzFh7RLLaWqcNX+7GDvbFf5u3nuGi2ejbYaPDobuAdUyD6x++w3iNh+EceZ15AOSgEIQgEIQgEIQgEIQgFq4rRiaGWE7pGOYfxNI/VbSEFO9JsPXYdDKR2hlJ7szMzv7ipdzLLoba+lvQzN+F0oHk6Vo+RVDVcFloYqSaxXT/R7jH0qghkJu8Dq3888fZufEAO/EuWNxV1f/AM/YncVVOeBZM3xcCx/92P1UFwIQhQCEIQeZHgAkmwAuSdwA3lc+dLm1RmkMLDocpd3RjtRM7idJHeMY4FWp0k4+2np3DfpmcOYvZjPxvsPuhy5umc+V7nvJc55LnHmXG5PdqrINBzFlw2R5dk0cy98rhdt+Y4tPeLLLVx2FlvYNAGjMUElPUGFuVrRrusdR4gq1eh7Yzq2iunb9Y8fVA65WOGr/ALzhu5DxST0d7MnEKvNIPqIrOk5H4Wfit6ArodrQAABYDQAbgAlH1CEKAQhCAQhCAQhCAQhCAQhCBN2kj/2ecfbf833/AFVFYhTq+tof4Mve6T+yHn/CqbxODetBMnjsnjoPrMmKsbf+LFLHbmQGy/lGUqVsSkOj6oMWJUzwbWMnzglH6qDqdCEKAXiWQNaXONgASTyA1K9pY2+xUQ05B94FzhzYyxI/E4sb+IoKd6TMZdUT5OAOdw7yLRt/Cwjze5QNHh9hchbVDSumkL3auc4uJ5km5+aYK+iyRgc1oIVVF2rrPDG55bEwEkkAAbySbADvJXzEXWfYcFY3Qrs31kzquQdmLRl9xlcP8LTfxc08EFobFbPNoaVkItn9qRw4yEa+Q0A7gp5CFkCEIQCEIQCEIQCEIQCEIQCELxK/K0nkCfQIFHaJ31J7y93k7O383hVhikSsjaQ2ja3k0D+sQf8A1lIGJNWgm4hGtfZ8Wq4rc3f+N6kcQYvGyMGevgbzL/lDIf0SjqNCELIFTnSjifWy9W06F2X8ERI9DIXn/lhWvi9X1UMknFrTbvcdGjzJCo2ZvXVbuIYcg/BoT5nM78SsEpsxhOl7L7tNZrXO5CwTbhtIGRXtwSD0j1WSMN4lUINPG6WWwBJJsAN5JOgXUWymDCkpYoBa7W3eecjtXn13dwCpfoYwHraoSuF2xDrD97cweuv4VfylAhCFAIQhAIQhAIQhAIQvL3gC5IA5k2CD0hQ1VtXQRmz62maeRmjH+JeqTamglNo6yneeTZoyfk5BLrWxB3YI52b6mx+V1sNcDqNQtHEpBdoO4Xce7Sw+Rd6IEzaia7iO/wCQA/UvSXiBU/jNTmef51JzO+ZKWq6RaEBXqT6KqTPi0B4RiV58OqfH+cgUVWuTj0G0eatnl/3cIZ/1ng/+o/NKLsQhCyFXpBxDqoABv7Und9WOyD4yOjVb7GUmZ10w9LFbq5o4dXHb1ld8xEsGwdPoFqBvqGWYAqP6QavrarINwKufHnkNcQ9zcreAbr45mn+SqLoInVNaeJLso7yTYILx6JsJENEHkdqU5vwt7Lf8R/EnVYKGmEUbI27mNa0eDRZZ1kCEIQCEIQCELHUTsja573BjGglznEBoA3kk6AIMiW9rduKLDxaeS8lrthZ2pSOBy+6DzcQFX+2vSs+TNDh92M3OqSO0efUtcNB9t3kNzlVMzbkucS5zjdznEuc4neXE6k95VwOm0nTLXzXbTMbSs4HSSYjvLhlb5DzVe4lWVNQbzzyynf23ud6A7llkYvBj4mwHMmw8uJ8kGj9ECwSwgKQkqIh8T/Ro9Tc/ILG/O5pc2A5RvdaRwHi4GyDLgG0tbSuH0aolYbgBrXEtJvoMhu13orwxHG6mOkbUVTmipyBrw0WYW6uMbmg2JtfUW7R0sqx6OIadlTnmAMg/h/A0/FrvdyPD5pj6Q8Szx2Hskhre8XBc7zIFu4DmkHmj2pjn9rsSHe0nQk78ruPyPcvNXKq+ctylxeRmhOdvInUeDv0N92lldE3VvVt9BtDlpJpiP4s1h3siaAP7RkVKfTWvBLTrYkj3gBv04+IXS+xOF/RqCnhIs5sYLx/xH9uT+05ylE4hC1cUr2QQyTSENZGxz3E8mi6gorpXx1jZ7XzOzyPDRyLgxtzw0i+ar922VadGzOib8MRyf2h2vmtDFZ3vJfISXOJJub+0S4jwuT6lRrVRLvxypdvqJjffeWQ38e1qtvZ7aCWkmZMzK4tcHZXglpIPGxB+ahoGXWy+OyDoHZXplpJ7MqmmmedM188JP3rXZ+IW71ZUUrXAOaQ5pFwQQQQdxBG8LjFrDwTVsZt7V4c6zHZ4b3dC8nqzzLfgd3jzBUHU6FAbIbXU2IRZ4XWcAM8TrZ2E8xxbycND43An0AhCh9qNo4aGHrZTcnSOMe3I/wCFo/M7gEGbH8cgo4jNO/K0aADVz3cGsb7zj/mbAXVFbYbV1GIO+s+rgBuyAHTTc6U++/jyHDmcWO4rNVzGeodd2oYwXyRN+Fg9Lu3n0AipNVZBqSBa5jJIAFydwGpupfDcJlqX5Im3t7Tj7DBzcefIbz6kNj8LpqCIvkcL7jI72nE+6xo/ujXndUJQwVwF3aHly8VCV0DGuPWPN/hb2pPO5s38Rv3FSuN49JKSGAxM/wC44d5Hs+A170uSBtw24Cg+nE8n8GJjPtOAlk/rPGUfha1bFJhtfVkEMmlHBzycg8HPNvRO+xuB0gAeWCR+/M+xAP2W7h8z3p7zAC5IAHkAmBJ2c2J6m0lQ4PeNQwasb3kn2j8vFL+2Vf1kuUbmpv2k2ogbGWQyNlkOgbGc5HjkuqzqIpb5nxyC/FzHgepCoxkrG4r1mWNygmdiaUy4jSRgkEzx3IJBytOZ1iN3ZDh5rrhcwdDEOfGKb7Ild5iJ4/xLp9QCpbpo2yEr/wDRsJuGua6ocNxLe02Ic7Gzj3gDmnTpR2xNBThsVvpE12x7uwAO3IRxtcADm4cLrnrD2F0pLiSSSSTqSTqSTxJNyrBoY3HayiGhMm0sOoS9lQb1C1fMUnscoWTDN6j6515HeP5IMtLV2OqmYYmSDRLS2KSqcw6HRBPYbXVFFM2aF5Y5u4jlxB4EHiDoujuj3bqLEouDJ2j6yPnwzsvvbf09CeeKeobK2x3rBh1bNR1DJYXFr2m4I9N3EHdbjdMHVO0eORUcDppToNGtHtPefZY0cz8gCToCqMxnE5qqU1FQe0dGtHsRs3hjL/M8TryA2sbxyeukbPOA0NbaOIG7WXAzHXe5xGp5WHDWLfqkgwSaqT2b2bkrHGxLImmz5bceLY+Bf8hx5Ha2X2afWyG92QMNpHjQuO/q4z8W6590HmU/4vV/R2MpqSNnWHssFvqoW2uXvtqbA3y7ySLkXuaI6unhomMpaeLPK4XZC06nnJM8+y2+951O4XOiWsUwFzgZqiQSS2Pa9mKNvFsTT7LeZOp4ngp1scFFFJNLJqe1NO/V8jtwvb0awaDQAKn9tttpK1xjZeOnB0b7z7bjJb+7uHfvQReNYgzOWxG4B9rgfu/uobNrdeooy4hrQSTuA3pw2c2cYHB0wDncG72jx5n5LIluj7D66cDqg2Nh/pZASLfYYLF58wO9WzhmwVLo6pz1jxxnN4wfswttGPQ+K0dm22snmm3LQ+QU7I25Y2NY0bgxoaLeDQorF5NCpmU6JbxySwKCs9rKKF5JdG2/MCzvUaqva6itfKbgcDvH7j+e9Pm0k+9IlXKc1xvSid6H60RYxTEmweXx683xuDf7WUea6nXGckhjeyaPskEPb3PYbj0I+XeuxMPqhLFHKNz2NePBzQR+ayOfuk7EDU4vK292wBsLddOyMzz453uH4QlnD47TO+84ehKYGURdVVMjh2n1E7vJ0ryPW9/MKJqYslS8fbP9rX9VqDHtTT3bdKD2qxMYgzxeSSJYFBjw13aWjWttI7xK2Yuy5ecVb9Zf4gD+n6INJCEKDdw+ctKbcFpusPWO9kbu93NJ+GwF8jWjjv8ABWLTgNYGjcArBnkct3AMFkrJuqZdrG2MsnwMO4N5vdYgX3ak7rHTpoHyvZFEM0jzlaOHMuPJrRck8hz0VuYPhrKOFsEQzPNySd75DbPI/k0aeADWjgqNmCnZExtPTtDA1thYXEbPiN/aeTe195uTexupbVY1BRVbBM7JGaZzmONyS9shMgvvc93YPeW96cpZY6eJ8kjw1jQXySO+bj37gAO4DgFQG2G2f+kJz1jP9lF2xssOsYD/AEodwluAbXy27P2kogNstrJa6S5uyFp+rjvoPtO5uPPhuChsNw+Sd4ZG2548gOZPAKcj2OkkLeqkY9rjYuB3MIuH235bcN4OhViYTgcdNHkYPvOPtOPM/soFihwNlO3TtP4u4+XILfoD2gpCvhUXAbOVFmbNi4CdKcaJE2cq2MZne5rGje5xAA8ytqt6RqWPSNskx5gZGertfQIHGoOiT9oprAqEqOk2R26mYB3yEn5NCh6/aszDtRZfuuzfmAgWtoqjUpRkNyprG57kqHgZcqUepo/qz3G/rYfofVdVbBg/6Nob7/osH/iauY6ylc7LE32pC1rRzc45R83BdZUNMI42RjcxjWDwaAB+SUU++itPLoB9bJoBYXL3X+aVtrqTJU5uD2Nd5jsn+6PVWPWRNdUTFhuOteD94OOceTrhQfSDheambM0axHX7j7A+hDPmqFSOXNHY8ks1MNnELep6nKbXWvXP1ugha6ntqteYZ4/tM/u8VOyxhzVCSsLHXCgjV8W1VwD22+yd/cf2WqoJ3ZiPtF/kE1MlSrg0lmKeoW9Y9kZ3OcA77m9+7d2QRfmQtQWh0d0DY4nVkntSN7Btctg3i2/V5AfpvGQbwnajYdXu0c7h8LeDf1J4m/CyVaCsD3Nb7rLOI4X/AKMeVi7uIYoLpY2wMEApYXWlmHbcN7Idx8C/UeAd3IFTpW23+ly/RoHf7NE7UjdNIPe72N1tz1PKyPR075HhjBdx3chzJ7gsETLmw/8AwJqwJrYRf3jvPIclA3bPYbHTRhjdSdXO4udzPd3KYGqW6bERzUrT1gKoyVcFwlaaVuc5e1Y7/dvyuN/l6hSGPYoXkwxmwH8R43/caeB5ngNN50imtAFgLAbggyTzufbM4m24cB4DcPJY7L6vqD5ZFlkdA4NDyCGuJDTwJbbNbna4v4rxZBrVtIJG2O/geRURhdKc9iNQbHxCYFiYOrMkgFzoGi180jrNaAB3/qgn+jfBfpWKtcReOl+sdyzjSMf1rO/5ZXQCU+jXZj6DSBr/AOPKesmPHMdzfwj5lx4psWRUWy1SRW4lTP8AbZVyytH/AA55C4fmD+MJkqw0scx4u1wII5tcLEJO6T43Ydi0OItB6qobkmt8TAGu88gjcBxMZUpimKty5muBBFwRuII08rLUFTY9Rup5nxE3ynsn4mH2Xfoe8FRzqm4U/tZVNmtrZzb2PjvB7vy9bpsjzdQSVLVWNivVYwOCiHOO9Z4azSxQYg4sPdxCxzU1+0zUcuI/cLJUOutdkpadEGxRS2FlOYRVZZAb7hb1I/ZLsk1zfmtygl7TBzcB6kD9UFpYFi4a0ucbDVzj3Afo0D0Vb45iD6meSd+95uB8LRo1vkLBSFHUuewsHEa+HH+e9eY8Nu4AjS+vgFRGkdW0D3ndo9w90fqvbK0rDWEve53M6eA0HyWHqioJSPEiOKkKXFnk5WHtHQd3efDelvqyp/ZyksHSHeTlHgLX+f5KiVijDRYf5knUk8yTqva+rPRUpke1g3u9NAT+iDXTtsRsK+ptNPdkG8Dc+Xw+FnfvPDmtHD8GZA7rKtj3NB0yNL4/F5H5EBPMPSHRMgIa9xe1pytMb7F2uUXtYDclCN0hVjH1ZijAbFTtELGt0aCNX2HDtG34UsWXuR5cS5xuSSSeZJuT6ryg+WVh9GGyYkLayYXYxxMLeDpB2OsP3bOA7yTwBSHR0r5ZGRRi73uDWjvJtryHM8l0RhVC2CGOFnsxtDQeJsLXPed/mpRtIQhQQe2mzjK+kkpn6EjNG+18krfYd+h5gkcVzh9Nnps9JOC18Liyx4W4d43EHiCF1Wq/6Uuj8V7OvgAbVRiw4CVg9xx4H4XcNx0Ogc8VlUSVrZc+nvcO8cj38vTkvdZSvje5j2ua5pLXNcCHNcN4cDuKy0tKSVRqNYvr6S+o3pl/0A+RuZgu4cPiHjzUe2EgkEEEGxBFiDyI4FBASgjesKaH0TXcFGVWEkbkwRK3sLd22XNgJGO8swufyWs+Bw3hELrHX+Qd6gcthKPNLK072Nt55rH+6mfEMNytvbeQ31URsBMPpt7i08Tv+q0tc8eOj3W5OanvH4PqS4D2C13kCL/K61Aht2e7lkbs53J9ZTNOvD9FkFO1AiM2Z7l7qqLqsjPs39XvT2IgoHaul0ZIOHZd4HVvzzeoQLdluYRXdTIJMuawIte2/iDzWpZFkFqbP7R0stm5+rf8L7Nv4HcfVae3VNhkbDmbapOoEJDTruMg9kDxFzwVb2X2yDyhelYGwuwhkLaiqbaPeyI738i8cG93HjpvCR6LtlywfTJW2c4Wiad4Yd7+4uGg7r81YiAELIEIQgEIQgUNuuj+mxEZz9VUAWbM0XuBubI332+hHAjW9TT7EVVI8smjA4MlaC+Fx4aixad3ZdY8l0QvL2AgggEHQg6gg8wgqDDcMygaL3jGzEFQLuGSQCwkaO1Ybg4e83x8iEzbb7Cuqad0dLMYXEg2ucptfs5hq0eu5LGzOz9RQRGKpkc9xNwDchvPK47we7TRa0I2L7PT09y5uZn+8Zq232uLfPTvKii8K1a2vDeKQtoJacknIA7m3s+ttCgXJ2sKjp42BbzcOlle1kUUri42bpofA2srk6P+iKKECeva2aU6tiOsTB9oe+7x0HLipRWOwGBVtRK11LC5zGuDutPZia9v2jobi7XNbc2PcFacpuCx7S02LXMdvF9CCrQjjDQGtAAGgAFgByAG5Qu0mACobmYQ2UDQ8HDk79+CSisaKoMf1Lzq32T8TOBHhuWw6tHNaGOwPid1c7HMeNWn9Wnc4eChJql3BwPy+SoY5cRsNFHPxi92vbcEWPLz1SzVVUo913kL/ko6SpmduY/+qUDBIG37Lr9x9r/PyXghLrqaU2zkMvoMxFzfgBvJ7k67K9HFZUWceshi+OXOy4+xDcPd+LKO8oIyynsI2PrKgjLEWNPvyXY23PXU+QKtfZjZKmom/VtLpD7Ur+1IfA+6O4WU+poUdmNgoKYiST66UaguFmNP2W8+83Omlk3IQoBCEIBCEIBCEIBCEIBeJoWvGVzQ4HgQCPQr4hAtYxsLSTA/xIjzjf8Ao8OA8glLBdgaVk5e50spG4SFhANxqA1g1X1CCyKDDIowMrRcagkC404cvJbqEIBCEINetoopmlksbZGn3XAOHz496Scd6MKF7XPYZoba2ZIC0/8AVa6w8LIQgQZ9kI2vyieoA7ns/wDomzAuiukkaHyz1cn2DMGtP9RjXfNCEDtgmydDSa09NGx3x2zSecj7uPqppCEAhCEAhCEAhCEAhCEH/9k=",
+      "price_inr": 6499.17,
+      "discount_price_inr": 5499.17
+    },
+    {
+      "id": "16",
+      "name": "True Wireless Earbuds",
+      "description": "True wireless earbuds with long battery life and deep bass.",
+      "image": "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/15622444/2023/6/15/414359a3-d249-45e3-89ee-87327078c1db1686812736703-NOISE-Buds-VS102-Truly-Wireless-Earbuds-with-50hrs-playtime--1.jpg",
+      "price_inr": 2999.17,
+      "discount_price_inr": 2499.17
+    },
+    {
+      "id": "17",
+      "name": "Studio Headphones",
+      "description": "Professional studio headphones with high sound quality.",
+      "image": "https://m.media-amazon.com/images/I/61wCDPgpDEL.jpg",
+      "price_inr": 7999.17,
+      "discount_price_inr": 6999.17
+    },
+    {
+      "id": "18",
+      "name": "Sports Wireless Earbuds",
+      "description": "Sweat-resistant wireless earbuds designed for sports.",
+      "image": "https://m.media-amazon.com/images/I/71sxbX6aCEL._AC_UF1000,1000_QL80_.jpg",
+      "price_inr": 2799.17,
+      "discount_price_inr": 2299.17
+    },
+    {
+      "id": "19",
+      "name": "Bluetooth Headphones with Microphone",
+      "description": "Bluetooth headphones with built-in microphone for hands-free calls.",
+      "image": "https://m.media-amazon.com/images/I/617uhNlU5TL.jpg",
+      "price_inr": 3599.17,
+      "discount_price_inr": 2999.17
+    },
+    {
+      "id": "20",
+      "name": "High-Definition Wireless Headphones",
+      "description": "High-definition wireless headphones with clear sound quality.",
+      "image": "https://m.media-amazon.com/images/I/61rDmB8eRDL.jpg",
+      "price_inr": 4999.17,
+      "discount_price_inr": 4499.17
+    }
+ 
+  ],
+  "Phones": [
+    {
+      "id": "21",
+      "name": "iPhone 13 Pro",
+      "description": "Latest model with advanced features and high performance.",
+      "image": "https://www.reliancedigital.in/medias/Apple-MLQA3HN-A-SmartPhones-491997707-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1NTA2NXxpbWFnZS9qcGVnfGltYWdlcy9oM2IvaGE1Lzk4NzgxMTI5NjA1NDIuanBnfDEzZTcyNTc3ZTI4NTIzZTdhMTY5ZWVjNzBmMzg5NDNkOTdjYjRlMTM3Y2FmNzQ0M2FlYTYyMTcxZTZiMTA1OGY",
+      "price_inr": 69999.17,
+      "discount_price_inr": 64999.17
+    },
+    {
+      "id": "22",
+      "name": "iPhone 13",
+      "description": "Premium smartphone with exceptional camera and battery life.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtiQl85EQ6-ekMRs2ujD6IgKsiyWVRqodLO6q0yJzMxqv2B9weSn8Ykf2YvCCbSfo4In8&usqp=CAU",
+      "price_inr": 79999.17,
+      "discount_price_inr": 74999.17
+    },
+    {
+      "id": "23",
+      "name": "iPhone 12 Pro Max",
+      "description": "Smartphone with large screen and high-speed performance.",
+      "image": "https://images-cdn.ubuy.co.in/6597c38ef6a95965cc0d2481-apple-iphone-12-pro-max-a2342-512gb-blue.jpg",
+      "price_inr": 84999.17,
+      "discount_price_inr": 79999.17
+    },
+    {
+      "id": "24",
+      "name": "iPhone SE",
+      "description": "Affordable smartphone with decent features and performance.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgKFSSdqnOX0CycMt8gikjNfCRnFugR9amWw&s",
+      "price_inr": 25999.17,
+      "discount_price_inr": 21999.17
+    },
+    {
+      "id": "25",
+      "name": "iPhone 12",
+      "description": "Mid-range smartphone with good camera and battery life.",
+      "image": "https://www.reliancedigital.in/medias/Apple-Iphone12-Mobilephones-491901533-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w3NzE5fGltYWdlL2pwZWd8aW1hZ2VzL2g3Ny9oNzEvOTg2MzgzNTU4MjQ5NC5qcGd8NDEzYzUzZjg1YmE5ZmVjNDYyNjMxNmY4ODRlNjIyOGM2MDQ1NzRiNGFkYmZjMTlmOTUxMjIzY2MyMWFlMmJlMA",
+      "price_inr": 33999.17,
+      "discount_price_inr": 29999.17
+    },
+    {
+      "id": "26",
+      "name": "iPhone 12 Mini",
+      "description": "Compact smartphone with high performance and durability.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmd5vjpPZOoTD0Z1IpDvBadjJYNVcgck1IOg&s",
+      "price_inr": 40999.17,
+      "discount_price_inr": 36999.17
+    },
+    {
+      "id": "27",
+      "name": "iPhone 11 Pro",
+      "description": "Feature-rich smartphone with excellent camera and processing speed.",
+      "image": "https://photographylife.com/wp-content/uploads/2020/01/iPhone-11-Pro.jpg",
+      "price_inr": 45999.17,
+      "discount_price_inr": 41999.17
+    },
+    {
+      "id": "28",
+      "name": "iPhone 11",
+      "description": "Smartphone with sleek design and top-notch features.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJLn1qG8xPnWcKCiOIfERhynTdogey_mw94g&s",
+      "price_inr": 50999.17,
+      "discount_price_inr": 46999.17
+    },
+    {
+      "id": "29",
+      "name": "iPhone XR",
+      "description": "High-performance smartphone with large display and fast processing.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNKIYjzwM-uPCwVl6WQn_mGaniwA3QXIejWA&s",
+      "price_inr": 55999.17,
+      "discount_price_inr": 51999.17
+    },
+    {
+      "id": "30",
+      "name": "iPhone XS",
+      "description": "Latest smartphone model with cutting-edge technology and features.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmTkZwyWv7cIav-UvdrErvgGUVH5pMyv-mvw&s",
+      "price_inr": 62999.17,
+      "discount_price_inr": 58999.17
+    }
+]
+}
