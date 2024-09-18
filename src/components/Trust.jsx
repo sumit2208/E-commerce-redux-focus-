@@ -1,8 +1,12 @@
 import React from 'react'
-
+import { motion } from 'framer-motion'
 const Trust = () => {
   return (
-    <div className='font-bold tracking-tight'> 
+    <motion.div 
+    whileInView={{opacity:1,x:0}}
+            initial={{x:-100,opacity:0}}
+            transition={{duration:1}}
+    className='font-bold tracking-tight'> 
         <h2 className='flex justify-center mt-10 font-bold text-2xl'>TRUST</h2>
         <hr  className='mt-3 border-4 border-slate-900'/>
       <div className="   py-24 sm:py-32">
@@ -24,7 +28,7 @@ const Trust = () => {
   </div>
 </div>
 
-    </div>
+    </motion.div>
   )
 }
 

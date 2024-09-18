@@ -1,21 +1,30 @@
 import React from 'react';
 import PIc from '../assets/online-shopping.png';
+import { motion } from 'framer-motion';
 
 function Footer() {
   return (
     <div>
       <div className='border-b-2 border-neutral-600 text-2xl mb-20 mt-10 flex items-center justify-center py-2'>
-        <span style={{ fontWeight: '800' }}>PERSONAL TOUCH</span>
+        <motion.span 
+        whileInView={{opacity:1,x:0}}
+        initial={{x:-100,opacity:0}}
+        transition={{duration:1}}
+        style={{ fontWeight: '800' }}>PERSONAL TOUCH</motion.span>
       </div>
 
       <footer className="bg-slate-950 dark:bg-gray-900 shadow mb-2">
-        <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <motion.div
+        whileInView={{opacity:1,x:0}}
+        initial={{x:-100,opacity:0}}
+        transition={{duration:1}}
+        className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
               <a href="/" className="flex items-center">
                 <img src={PIc} className="h-8 me-3" alt="E-STORE Logo" />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap text-white dark:text-white">
-                  E-STORED
+                  E-STORE 
                 </span>
               </a>
             </div>
@@ -58,7 +67,7 @@ function Footer() {
               Disclaimer: This site is for practice purposes only. No actual products are being sold.
             </span>
           </div>
-        </div>
+        </motion.div>
       </footer>
     </div>
   );

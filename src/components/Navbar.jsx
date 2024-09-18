@@ -4,6 +4,7 @@ import cartpic from '../assets/cart.png';
 import logo from '../assets/online-shopping.png';
 import { selectCartItems, selectTotalPrice, removeCart, increment, decrement, calculateTotal } from '../redux/Features/cart/cartslice';
 import { NavLink } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -12,6 +13,9 @@ const Navbar = () => {
   const cartItems = useSelector(selectCartItems);
   const cartLength = cartItems.length;
   const total = useSelector(selectTotalPrice);
+
+  
+    
 
   useEffect(() => {
     dispatch(calculateTotal());
@@ -41,7 +45,10 @@ const Navbar = () => {
   };
 
   return (
-    <div className='font-bold tracking-tight' style={{fontWeight:'800'}}>
+    <div div  
+    
+    
+    className='font-bold tracking-tight' style={{fontWeight:'800'}}>
       <nav className="bg-gray-900 p-2.5 border-gray-200 text-gray-400 font-sans md:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
           <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
@@ -96,7 +103,13 @@ const Navbar = () => {
 
           <div className="relative">
             <button onClick={toggleSidebar}>
-              <img className='h-8 cursor-pointer' src={cartpic} alt="Cart" />
+            < img
+   
+      className="h-8 cursor-pointer"
+      src={cartpic}
+      alt="Cart"
+ // Trigger rotation on click
+    />
             </button>
             {cartLength > 0 && (
               <span className="absolute top-0 right-0 bg-red-500 text-white rounded-full text-xs w-5 h-5 flex items-center justify-center">
@@ -109,7 +122,10 @@ const Navbar = () => {
 
       {/* Sidebar */}
       {isSidebarOpen && (
-        <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity z-10" aria-hidden="true">
+        <motion.div
+  
+         initial={{x:-100,opacity:0}}   transition={{duration:0.5}}
+        className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity z-10" aria-hidden="true">
           <div className="fixed inset-0 overflow-hidden">
             <div className="absolute inset-0 overflow-hidden">
               <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
@@ -191,7 +207,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       )}
     </div>
   );

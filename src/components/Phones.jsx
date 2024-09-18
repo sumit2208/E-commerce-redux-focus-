@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Products from '../Products.json';
 import { addCart } from '../redux/Features/cart/cartslice';
 import { useDispatch } from 'react-redux';
+import { motion } from 'framer-motion';
 const Phones = () => {
   const dispatch = useDispatch();
   const [productName, setProductName] = useState([]);
@@ -22,7 +23,11 @@ const Phones = () => {
       <h2 className="text-2xl tracking-tight text-slate-50 font-semibold">IPHONES</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
         {discountProducts.map((product) => (
-          <div key={product.id} className="bg-gray-800 shadow-3d rounded-lg overflow-hidden flex flex-col">
+          <motion.div 
+          whileInView={{opacity:1,x:0}}
+            initial={{x:-100,opacity:0}}
+            transition={{duration:1}}
+          key={product.id} className="bg-gray-800 shadow-3d rounded-lg overflow-hidden flex flex-col">
             {/* Optionally include an image */}
             <img src={product.image} className="w-full h-48 object-fill" alt={product.name} />
             <div className="p-4 flex-1">
@@ -39,7 +44,7 @@ const Phones = () => {
             >
               {productName.includes(product.name) ? 'ADDED' : 'ADD ITEM'}
             </button>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>
