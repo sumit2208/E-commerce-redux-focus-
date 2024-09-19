@@ -118,7 +118,7 @@ const Navbar = () => {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ x: -100, opacity: 0 }}
           transition={{ duration: 1 }}
-          className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity z-10" aria-hidden="true">
+          className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity z-10  " aria-hidden="true">
           <div className="fixed inset-0 overflow-hidden">
             <div className="absolute inset-0 overflow-hidden">
               <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
